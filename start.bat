@@ -8,7 +8,7 @@ echo ^| \__/\ ^| ^| ^| ^| ^| (_) ^| ^| ^| ^| ^| ^| (_^| ^| ^|^|  __/ (_^| ^|   ^
 echo  \____/_^| ^|_^|_^|  \___/^|_^| ^|_^| ^|_^|\__,_^|\__\___\__,  ^|   \_/\___/ \___/^|_^|___/
 echo                                                   ^| ^|
 echo                                                   ^|_^|
-echo by MeisterJETI
+echo by MeisterJETI and Mr. Maruxas (MN-Studios)
 echo A second monitor highly recomended.
 echo.
 
