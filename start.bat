@@ -8,7 +8,7 @@ echo ^| \__/\ ^| ^| ^| ^| ^| (_) ^| ^| ^| ^| ^| ^| (_^| ^| ^|^|  __/ (_^| ^|   ^
 echo  \____/_^| ^|_^|_^|  \___/^|_^| ^|_^| ^|_^|\__,_^|\__\___\__,  ^|   \_/\___/ \___/^|_^|___/
 echo                                                   ^| ^|
 echo                                                   ^|_^|
-echo by MeisterJETI and Mr. Maruxas (MN-Studios)
+echo by MeisterJETI
 echo A second monitor highly recomended.
 echo.
 
@@ -25,6 +25,15 @@ choice /c Y /n >nul
 
 echo Starting Chromateq to sACN Script...
 start "" .\python-3.13.13-embed-amd64\python.exe .\UPD-sACN.py
+
+echo Do you want to start Capture?
+choice /c YN /n >nul
+
+if errorlevel 2 exit
+if errorlevel 1 goto start
+
+:start
+
 echo Starting Capture 2024...
 start "" ".\Capture 2024\Capture 2024.exe"
 
